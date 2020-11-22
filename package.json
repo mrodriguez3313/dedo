@@ -1,5 +1,5 @@
 {
-  "name": "dedo2",
+  "name": "dedo",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mrodriguez3313/dedo2.git"
+    "url": "git+https://github.com/mrodriguez3313/dedo.git"
   },
   "author": "Marco",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mrodriguez3313/dedo2/issues"
+    "url": "https://github.com/mrodriguez3313/dedo/issues"
   },
-  "homepage": "https://github.com/mrodriguez3313/dedo2#readme",
+  "homepage": "https://github.com/mrodriguez3313/dedo#readme",
   "dependencies": {
     "3id-connect": "^1.0.0-alpha.4",
     "@ceramicnetwork/ceramic-http-client": "^0.7.3",
