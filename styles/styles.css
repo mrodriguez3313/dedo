@@ -5,7 +5,7 @@ body {
     font-family: 'Source Code Pro', monospace;
 }
 
-#heading {
+.heading {
     color: snow;
     font-size: 50px;
     text-align: center;
@@ -21,7 +21,7 @@ body {
     height: 300px;
 }
 
-input {
+.login {
     width: 100%;
     margin-bottom: 10px;
     background: rgba(0, 0, 0, 0.3);
@@ -41,8 +41,19 @@ input {
     -ms-transition: box-shadow 0.5s ease;
     transition: box-shadow 0.5s ease;
   }
-  input:focus {
+.login:focus {
     box-shadow: inset 0 -5px 45px rgba(100, 100, 100, 0.4),
       0 1px 1px rgba(255, 255, 255, 0.2);
   }
 
+.container {
+    display: inline-block;   
+    width: 300px;  
+    height: 200px;  
+    padding-top: 100px; 
+    justify-content: center;
+}
+
+.button {
+    margin-left: 200%;
+}

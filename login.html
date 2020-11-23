@@ -7,15 +7,15 @@
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-    <h1 id="heading">Dedo/SkyDB</h1>
+    <h1 class="heading">Dedo/SkyDB</h1>
     <form method="POST" enctype="multipart/form-data">
         <div class="login-box">
-            <input type="text" value="username" required='required'>
-            <input type="password" value="password" required="required">
-            <button type="submit">Sign In</button>
+            <input class="login"type="text" value="username" required='required'>
+            <input class="login" type="password" value="password" required="required">
+            <button type="submit" formaction="profile.html">Sign In</button>
         </div>
     </form>
 </body>
-
+<!--Not verifying anything when doing the formaction, it just goes to profile.html file to upload-->
 <script type="text/javascript" src="index.js"></script>
 </html>
