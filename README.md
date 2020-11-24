@@ -1,6 +1,9 @@
 # Dedo
 
-Dedo is a video uploader application that utilizes SkyDB as the database for the verification of your particular idenity. 
+## The Problem and Solution
+As of right now, anybody can upload files to IPFS but they do not have an idea of how to find and download that specific file without having the specific hash that goes with it. With Dedo, we created a prototype that focuses on uploading video files. In order to find our specific video file, we devised a schema that provides basic info that any uploader would need including title, video runtime, upload date, etc. We also utilized SkyDB to create specific user profiles so that all the files you have uploaded can be seen readily. 
+
+Dedo is a video uploader application that utilizes SkyDB as the database for the verification of your particular user profile. 
 
 Simple Web setup using the following technologies:
 
