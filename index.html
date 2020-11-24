@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>IDX + SkyDB Playground</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
+  </head>
+
+  <!-- https://www.encodedna.com/javascript/disable-or-enable-submit-button-using-javascript.htm -->
+  <script>
+    function disable(txt) {
+        var btn = document.getElementById('bauth');
+        var elem = document.getElementsByTagName('input'); 
+
+        // Loop through each element.
+        for (i = 0; i < elem.length; i++) {
+
+            // Check the element type.
+            if (elem[i].value == '') {
+                btn.disabled = true;    // Disable the button.
+                return false;
+            }
+            else {
+                btn.disabled = false;   // Enable the button.
+            }
+        }
+    }
+    </script>
+
+  <body>
+    
+    
+    <div class="login-box" id="root">
+        <h1 class="heading">Dedo</h1>
+        <p>Open your console and click the button below to authenticate</p>
+        <input id="user" type="text" placeholder="username" required='required' onkeyup="disable(this)">
+        <input id="pass" type="password" placeholder="password" required="required" onkeyup="disable(this)">
+        <button id="bauth" class="btn btn-primary" type="submit" formaction="upload.html" disabled>Sign In</button> <!--id="bauth" -->
+    </div>
+  </body>
+
+  <script type="text/javascript" src="dist/app.js"></script>
+  <!-- connect skydb -->
+  <!-- <script type="text/javascript" src="dist/app.js"></script> -->
+
+</html>
