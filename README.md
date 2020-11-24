@@ -1,5 +1,7 @@
 # Dedo
 
+Dedo is a video uploader application that utilizes SkyDB as the database for the verification of your particular idenity. 
+
 Simple Web setup using the following technologies:
 
 - [IPFS](https://ipfs.io/), used by `Ceramic`
@@ -10,3 +12,5 @@ Simple Web setup using the following technologies:
 ## License
 
 Apache-2.0 OR MIT
+
+
